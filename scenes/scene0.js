@@ -128,5 +128,9 @@ var scene0 = function () {
   popup.setText("popup", "", "button");
   popup.navigatesOnTouch('scene20');
 
+  // INFO
+  var info = scene.createActor('popup.png', 820, 350, 100, 100);
+  info.hasPopupOnTouch("info_page.html", 800, 400, -800, -150, 0);
+
   return scene;
 };
