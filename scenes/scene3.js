@@ -25,7 +25,7 @@
 
   var actor3 = scene.createActor('actor.png', 20, 410, 240, 88);
   var actor4 = scene.createActor('actor.png', 300, 410, 240, 88);
-  actor3.letsRotate(actor4, 0.15, 3)
+  actor3.letsRotate(actor4, 0.15, 3, 2)
   scene.write(20, 505, "actor4 rotates with 0.15 Hertz when actor3 is touched, <br />touch again for higher speed twice.")
 
     
