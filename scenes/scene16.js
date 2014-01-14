@@ -15,8 +15,8 @@ var scene16 = function () {
     var home = scene.createActor('home.png', 40, 40, 203, 64);
     home.navigatesOnTouch('scene0');
 
-    var actor1 = scene.createActor('actor.png', 50, -100, 240, 88);
-    var actor2 = scene.createActor('actor.png', 900, -150, 240, 88);  
+    var actor1 = scene.createActor('actor.png', 50, -100, 240, 70);
+    var actor2 = scene.createActor('actor.png', 900, -150, 240, 70);  
     actor2.clonesMovement(actor1, -100, -100);
     actor1.drifts(1,1);
     // actor1.resets();

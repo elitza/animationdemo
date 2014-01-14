@@ -13,7 +13,7 @@ var scene0 = function () {
   scene.scrollingPerspective(5, 1);
 
   scene.write(20, 20, "Animation Framework", "title");
-  scene.write(20, 50, "initiated by <a href='http://mehreinfach.de'>Mehreinfach</a>, download free at <a href='http://animation.io'>animation.io</a>", "small");
+  scene.write(20, 50, "initiated by <a href='http://mehreinfach.de'>Mehreinfach</a>", "small");
 
   // scene.write(20, 100, "Animation example
   // APPEARS
@@ -108,13 +108,11 @@ var scene0 = function () {
 
   // BOUNCES
   var csstricks = scene.createActor('button.png', 20, 520, 240, 60);
-  var newBadge = scene.createActor('new.png', 220, 510, 50, 50);
   csstricks.setText("bounces", "", "button");
   csstricks.navigatesOnTouch('scene24');
 
   // VIDEOACTOR
   var videoactor = scene.createActor('button.png', 270, 520, 240, 60);
-  var newBadge = scene.createActor('new.png', 470, 510, 50, 50);
   videoactor.setText("video (dev)", "", "button");
   videoactor.navigatesOnTouch('scene25');
 
@@ -127,10 +125,6 @@ var scene0 = function () {
   var popup = scene.createActor('button.png', 520, 520, 240, 60);
   popup.setText("popup", "", "button");
   popup.navigatesOnTouch('scene20');
-
-  // INFO
-  var info = scene.createActor('popup.png', 820, 350, 100, 100);
-  info.hasPopupOnTouch("info_page.html", 800, 400, -800, -150, 0);
 
   return scene;
 };

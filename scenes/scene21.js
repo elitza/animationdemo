@@ -16,15 +16,15 @@ var scene21 = function () {
     home.navigatesOnTouch('scene0');
     
 
-    var actor1 = scene.createActor('actor.png', 100, 100, 240, 88);
+    var actor1 = scene.createActor('actor.png', 100, 100, 240, 70);
   actor1.setText('actor1.addClass("blueborder");', '', 'scene21actortext');
   actor1.addClass("blueborder");
 
-  var actor2 = scene.createActor('actor.png', 100, 200, 240, 88);
+  var actor2 = scene.createActor('actor.png', 100, 200, 240, 70);
   actor2.setText('actor2.addClass("redborder");', '', 'scene21actortext');
   actor2.addClass("redborder");
 
-  var actor3 = scene.createActor('actor.png', 100, 300, 240, 88);
+  var actor3 = scene.createActor('actor.png', 100, 300, 240, 70);
   actor3.setText('actor3.hasId("blackborder");', '', 'scene21actortext');
   actor3.hasId("blackborder");
 

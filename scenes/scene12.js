@@ -15,7 +15,7 @@ var scene12 = function () {
     var home = scene.createActor('home.png', 40, 40, 203, 64);
     home.navigatesOnTouch('scene0');
     
-    var box = scene.createActor('actor.png', 300, 150, 240, 88);
+    var box = scene.createActor('actor.png', 300, 150, 240, 70);
   box.reacts2("this.setInitialOpacity(0.3)");
   l("box.reactions.size: " + box.reactions.length);
 

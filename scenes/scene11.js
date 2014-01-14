@@ -15,7 +15,7 @@ var scene11 = function () {
     var home = scene.createActor('home.png', 40, 40, 203, 64);
     home.navigatesOnTouch('scene0');
   
-    var actor1 = scene.createActor('actors/actor1.png', 20, 110, 240, 88);
+    var actor1 = scene.createActor('actors/actor1.png', 20, 110, 240, 70);
     actor1.addPhase('actors/actor2.png');
     actor1.addPhase('actors/actor3.png');
     actor1.addPhase('actors/actor4.png');

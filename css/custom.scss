@@ -2,56 +2,21 @@
 
 /* TEXT STYLING */
 
-.text, .hastext {
-  font-size: 20px;
-  line-height: 30px;
-  font-family: "sf_cartoonist_handregular", Helvetica, Arial, "Nimbus Sans L", "Liberation Sans", sans-serif;
 
-  display: block;
-  padding: 5px 15px;
-  margin: -5px -15px;
-  // background: rgba(255,255,255,0.4);
 
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+.hastext, .text {
 
+  font-size: 21px;
+  line-height: 24px;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   &.title {
-    font-family: "sf_cartoonist_handbold";
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
+    font-weight: bold;
   }
-
-  &.text_auf_titelseite {
-    width: 600px;
-  }
-
-  &.grey, .grey {
-    color: #aaa;    
-  }
-
-  &.black, .black {
-    color: #000;
-  }
-
-  &.small, .small {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  p {
-    padding: 0;
-    margin: 20px 0;
-  }
-
-  &.center, .center {
-    text-align: center
-  }
-
-  a {
-    color: #33e;
-    text-decoration: none;
+  .inner {
+    text-align: center;
+    margin: 25px 5px;
+    margin-top: 18px;
+    color: #fff;
   }
 }
 
@@ -97,26 +62,7 @@
   font-size: 20px;
 }
 
-.hastext {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 20px;
-  .inner {
-    margin: 25px 5px;
-    font-size: 16px;
-    line-height: 22px;
-    font-family: sans-serif;
-  }
-  &.weiter {
-    .inner {
-      color: red;
-      margin-top: 16px;
-      font-size: 27px;
-      line-height: 27px;
-      font-family: "sf_cartoonist_handregular", Helvetica, Arial, "Nimbus Sans L", "Liberation Sans", sans-serif;      
-    }
-  }
-}
+
 
 body {
   /* the page itself */
@@ -143,6 +89,11 @@ table {
 
 #stage {
   position: absolute;
+  background-color: #fff;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 
   .quiz {
     text-align: left;
@@ -209,47 +160,6 @@ table {
       // border: 1px solid green;
       font-size: 22px;
       line-height: 26px;
-    }
-  }
-}
-
-#rahmen_wrapper {
-  position: absolute;
-  clear: both;
-  top: 0;
-  width: 100%;
-  min-width: 1200px;
-  height: 700px;
-  pointer-events:none;
-
-  #rahmen {
-    position: relative;
-    margin: 37px auto 10px;
-    width: 1005px;
-    margin-left: auto;
-    margin-right: auto;
-
-    .rahmen_oben {
-      position: absolute;
-      top: 0;
-      left: 0;
-      position: relative;
-      z-index: 50;
-    }
-    .rahmen_rechts {
-      position: absolute;
-      top: 40px;
-      right: 0;
-    }
-    .rahmen_links {
-      position: absolute;
-      top: 40px;
-      left: 0;
-    }
-    .rahmen_unten {
-      position: absolute;
-      top: 667px;
-      left: 0;
     }
   }
 }

@@ -16,7 +16,7 @@ var scene15 = function () {
     var home = scene.createActor('home.png', 40, 40, 203, 64);
     home.navigatesOnTouch('scene0');  
 
-    var actor1 = scene.createActor('actors/actor1.png', 280, 90, 240, 88);
+    var actor1 = scene.createActor('actors/actor1.png', 280, 90, 240, 70);
     actor1.plays('quack', 'actors/actor2.png');
     scene.write(20, 205, "actor1 plays sound and displays image of actor2 while doing so.");
 

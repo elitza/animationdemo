@@ -15,10 +15,10 @@ var scene9 = function () {
   var home = scene.createActor('home.png', 40, 40, 203, 64);
   home.navigatesOnTouch('scene0');
 
-  var box1 = scene.createActor('actor.png', 50, 100, 240, 88);
+  var box1 = scene.createActor('actor.png', 50, 100, 240, 70);
   box1.movesTo(500, 250, 3, 3);
 
-  var box2 = scene.createActor('actor.png', 500, 100, 240, 88);
+  var box2 = scene.createActor('actor.png', 500, 100, 240, 70);
   box2.movesToOnTouch(50, 200, 3, 3);
  
   var arrow1 = scene.createActor('arrow-left.png', 30, 430, 100, 100);

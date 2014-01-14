@@ -16,27 +16,27 @@ var scene25 = function () {
     var home = scene.createActor('home.png', 40, 40, 203, 64);
     home.navigatesOnTouch('scene0');
 
-    var actor1 = scene.createVideoActor('Chrome_ImF', 20, 100, 240, 88);
+    var actor1 = scene.createVideoActor('Chrome_ImF', 20, 100, 240, 70);
     actor1.playvideo();
-    var actor2 = scene.createVideoActor('Chrome_ImF', 285, 100, 240, 88);
+    var actor2 = scene.createVideoActor('Chrome_ImF', 285, 100, 240, 70);
     actor2.playvideo(0, 4000, 5000);
-    var actor3 = scene.createVideoActor('Chrome_ImF', 540, 100, 240, 88);
+    var actor3 = scene.createVideoActor('Chrome_ImF', 540, 100, 240, 70);
     actor3.playvideo(3000);
     scene.write(20, 200, "videoactor1 just play video");
     scene.write(20, 220, "videoactor2 plays just a part in the middle of same video.");
     scene.write(20, 240, "videoactor3 starts delayed to play.");
 
-    var actor4 = scene.createVideoActor('Chrome_ImF', 20, 290, 240, 88);
+    var actor4 = scene.createVideoActor('Chrome_ImF', 20, 290, 240, 70);
     actor4.shakes(50, -10, 1);
     actor4.playvideoOnTouch();
     scene.write(20, 390, "videoactor4 plays when touched with animation applied.");
 
-    var actor5 = scene.createVideoActor('Chrome_ImF', 285, 440, 240, 88);
+    var actor5 = scene.createVideoActor('Chrome_ImF', 285, 440, 240, 70);
 
-    var actor6 = scene.createActor('actor.png', 20, 440, 240, 88);
+    var actor6 = scene.createActor('actor.png', 20, 440, 240, 70);
     actor6.setText("Play");
     actor6.letsPlayvideo(actor5);
-    var actor7 = scene.createActor('actor.png', 20, 440, 240, 88);
+    var actor7 = scene.createActor('actor.png', 20, 440, 240, 70);
     actor7.setText("Pause");
     actor7.letsPausevideo(actor5);
 

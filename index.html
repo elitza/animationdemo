@@ -71,25 +71,6 @@ a project by Mehreinfach: http://mehreinfach.de
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" oncontextmenu="return false;">
 
-	<div id="background"></div>
-
-	<div id="preload" style="display: none;">
-		<img src="images/bilder/gesichter/ML_00.png">
-		<img src="images/bilder/gesichter/ML_10.png">
-		<img src="images/bilder/gesichter/ML_20.png">
-		<img src="images/bilder/gesichter/ML_30.png">
-		<img src="images/bilder/gesichter/ML_40.png">
-		<img src="images/bilder/gesichter/ML_50.png">
-		<img src="images/bilder/gesichter/ML_60.png">
-		<img src="images/bilder/gesichter/ML_70.png">
-		<img src="images/bilder/gesichter/ML_80.png">
-		<img src="images/bilder/gesichter/ML_90.png">
-		<!-- <img src="images/logo.jpg"> -->
-	</div> 
-	
-
-	</div>
-
 	<div id="animframe" style="width: 1024px; height: 768px !important; margin: 65px auto;"></div>
 
 
@@ -114,6 +95,7 @@ a project by Mehreinfach: http://mehreinfach.de
 	</div>
 
 	<script>
+		Animation.offlineHack = true;
 		loadAnimationInto('Animation Demo', 'animframe', 'scene0', 1024, 768);
 	</script>
 

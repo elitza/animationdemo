@@ -17,12 +17,12 @@ var scene17 = function () {
     var home = scene.createActor('home.png', 40, 40, 203, 64);
     home.navigatesOnTouch('scene0');
 
-    var actor1 = scene.createActor('actor.png', 100, 160, 240, 88);
-  var actor2 = scene.createActor('actors/actor2.png', 400, 160, 240, 88);
-  var actor3 = scene.createActor('actors/actor3.png', 100, 330, 240, 88);
-  var actor4 = scene.createActor('actor.png', 400, 330, 240, 88);
-  var actor5 = scene.createActor('actor.png', 100, 500, 240, 88);
-  var actor6 = scene.createActor('actor.png', 400, 500, 240, 88);
+    var actor1 = scene.createActor('actor.png', 100, 160, 240, 70);
+  var actor2 = scene.createActor('actors/actor2.png', 400, 160, 240, 70);
+  var actor3 = scene.createActor('actors/actor3.png', 100, 330, 240, 70);
+  var actor4 = scene.createActor('actor.png', 400, 330, 240, 70);
+  var actor5 = scene.createActor('actor.png', 100, 500, 240, 70);
+  var actor6 = scene.createActor('actor.png', 400, 500, 240, 70);
 
   // actor2.syncWithServer('f2c7e2a3-8041-4d8c-a87b-df30d10c68ce');
   // actor2.doWhenCounterReaches(18, function(){ actor6.appears(10,10); });

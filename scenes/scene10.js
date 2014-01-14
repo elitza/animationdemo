@@ -16,7 +16,7 @@ var scene10 = function () {
     var home = scene.createActor('home.png', 40, 40, 203, 64);
   home.navigatesOnTouch('scene0');
   
-  var box2 = scene.createActor('actor.png', 500, 140, 240, 88);
+  var box2 = scene.createActor('actor.png', 500, 140, 240, 70);
   // box2.movesToAndBackOnTouch(50, 200, 1, 1);
  
   var arrow1 = scene.createActor('arrow-left.png', 30, 430, 100, 100);
